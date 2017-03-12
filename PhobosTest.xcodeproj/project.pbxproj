@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		319CA811FCC9590C60CDBE8F /* libPods-PhobosTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9C38661D2CCBD45DD59140 /* libPods-PhobosTest.a */; };
+		64C47F88ACBCB32F67E317F8 /* libPods-PhobosTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC0BBD92333302E8ACFAA24 /* libPods-PhobosTestTests.a */; };
 		CE9E79571E73D0680028088B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E79561E73D0680028088B /* main.m */; };
 		CE9E795A1E73D0680028088B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E79591E73D0680028088B /* AppDelegate.m */; };
 		CE9E795D1E73D0680028088B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E795C1E73D0680028088B /* ViewController.m */; };
@@ -14,6 +16,12 @@
 		CE9E79621E73D0680028088B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9E79611E73D0680028088B /* Assets.xcassets */; };
 		CE9E79651E73D0680028088B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9E79631E73D0680028088B /* LaunchScreen.storyboard */; };
 		CE9E79701E73D0680028088B /* PhobosTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E796F1E73D0680028088B /* PhobosTestTests.m */; };
+		CE9E797C1E73EE510028088B /* OSServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E797B1E73EE510028088B /* OSServerManager.m */; };
+		CE9E797F1E73F2420028088B /* OSTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E797E1E73F2420028088B /* OSTransaction.m */; };
+		CE9E79821E73F7E10028088B /* OSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E79811E73F7E10028088B /* OSDate.m */; };
+		CE9E798C1E7426710028088B /* OSTransactionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E798B1E7426710028088B /* OSTransactionTableViewCell.m */; };
+		CE9E79931E754AFB0028088B /* endPointsToCache.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE9E79901E754AFB0028088B /* endPointsToCache.plist */; };
+		CE9E79941E754AFB0028088B /* MGCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E79921E754AFB0028088B /* MGCacheManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FC0BBD92333302E8ACFAA24 /* libPods-PhobosTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhobosTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AE9D82FED5AE31ED5680C8 /* Pods-PhobosTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhobosTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhobosTest/Pods-PhobosTest.release.xcconfig"; sourceTree = "<group>"; };
+		3D18672153FFB02119FE35E0 /* Pods-PhobosTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhobosTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhobosTest/Pods-PhobosTest.debug.xcconfig"; sourceTree = "<group>"; };
+		4A4CAE57899D00437BE040B8 /* Pods-PhobosTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhobosTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhobosTestTests/Pods-PhobosTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E9C38661D2CCBD45DD59140 /* libPods-PhobosTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhobosTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF88187A337B6B4BDA48660D /* Pods-PhobosTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhobosTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhobosTestTests/Pods-PhobosTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		CE9E79521E73D0680028088B /* PhobosTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhobosTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9E79561E73D0680028088B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE9E79581E73D0680028088B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +54,17 @@
 		CE9E796B1E73D0680028088B /* PhobosTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhobosTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9E796F1E73D0680028088B /* PhobosTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhobosTestTests.m; sourceTree = "<group>"; };
 		CE9E79711E73D0680028088B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9E797A1E73EE510028088B /* OSServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSServerManager.h; sourceTree = "<group>"; };
+		CE9E797B1E73EE510028088B /* OSServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSServerManager.m; sourceTree = "<group>"; };
+		CE9E797D1E73F2420028088B /* OSTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSTransaction.h; sourceTree = "<group>"; };
+		CE9E797E1E73F2420028088B /* OSTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSTransaction.m; sourceTree = "<group>"; };
+		CE9E79801E73F7E10028088B /* OSDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSDate.h; sourceTree = "<group>"; };
+		CE9E79811E73F7E10028088B /* OSDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSDate.m; sourceTree = "<group>"; };
+		CE9E798A1E7426710028088B /* OSTransactionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSTransactionTableViewCell.h; sourceTree = "<group>"; };
+		CE9E798B1E7426710028088B /* OSTransactionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSTransactionTableViewCell.m; sourceTree = "<group>"; };
+		CE9E79901E754AFB0028088B /* endPointsToCache.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = endPointsToCache.plist; sourceTree = "<group>"; };
+		CE9E79911E754AFB0028088B /* MGCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCacheManager.h; sourceTree = "<group>"; };
+		CE9E79921E754AFB0028088B /* MGCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCacheManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319CA811FCC9590C60CDBE8F /* libPods-PhobosTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +80,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C47F88ACBCB32F67E317F8 /* libPods-PhobosTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		103562AE4B7EDB4081868E21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E9C38661D2CCBD45DD59140 /* libPods-PhobosTest.a */,
+				1FC0BBD92333302E8ACFAA24 /* libPods-PhobosTestTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B627DF7F3855C7DE5A6D4022 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D18672153FFB02119FE35E0 /* Pods-PhobosTest.debug.xcconfig */,
+				24AE9D82FED5AE31ED5680C8 /* Pods-PhobosTest.release.xcconfig */,
+				4A4CAE57899D00437BE040B8 /* Pods-PhobosTestTests.debug.xcconfig */,
+				AF88187A337B6B4BDA48660D /* Pods-PhobosTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CE9E79491E73D0680028088B = {
 			isa = PBXGroup;
 			children = (
 				CE9E79541E73D0680028088B /* PhobosTest */,
 				CE9E796E1E73D0680028088B /* PhobosTestTests */,
 				CE9E79531E73D0680028088B /* Products */,
+				B627DF7F3855C7DE5A6D4022 /* Pods */,
+				103562AE4B7EDB4081868E21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,15 +130,13 @@
 		CE9E79541E73D0680028088B /* PhobosTest */ = {
 			isa = PBXGroup;
 			children = (
-				CE9E79581E73D0680028088B /* AppDelegate.h */,
-				CE9E79591E73D0680028088B /* AppDelegate.m */,
-				CE9E795B1E73D0680028088B /* ViewController.h */,
-				CE9E795C1E73D0680028088B /* ViewController.m */,
-				CE9E795E1E73D0680028088B /* Main.storyboard */,
-				CE9E79611E73D0680028088B /* Assets.xcassets */,
-				CE9E79631E73D0680028088B /* LaunchScreen.storyboard */,
-				CE9E79661E73D0680028088B /* Info.plist */,
+				CE9E79891E7413ED0028088B /* Views */,
+				CE9E79881E7413DD0028088B /* ViewControllers */,
+				CE9E79871E7413C20028088B /* Models */,
 				CE9E79551E73D0680028088B /* Supporting Files */,
+				CE9E797A1E73EE510028088B /* OSServerManager.h */,
+				CE9E797B1E73EE510028088B /* OSServerManager.m */,
+				CE9E798D1E754A250028088B /* Libreries */,
 			);
 			path = PhobosTest;
 			sourceTree = "<group>";
@@ -97,6 +144,11 @@
 		CE9E79551E73D0680028088B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CE9E79581E73D0680028088B /* AppDelegate.h */,
+				CE9E79591E73D0680028088B /* AppDelegate.m */,
+				CE9E79611E73D0680028088B /* Assets.xcassets */,
+				CE9E79631E73D0680028088B /* LaunchScreen.storyboard */,
+				CE9E79661E73D0680028088B /* Info.plist */,
 				CE9E79561E73D0680028088B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -111,6 +163,54 @@
 			path = PhobosTestTests;
 			sourceTree = "<group>";
 		};
+		CE9E79871E7413C20028088B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E797D1E73F2420028088B /* OSTransaction.h */,
+				CE9E797E1E73F2420028088B /* OSTransaction.m */,
+				CE9E79801E73F7E10028088B /* OSDate.h */,
+				CE9E79811E73F7E10028088B /* OSDate.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CE9E79881E7413DD0028088B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E795B1E73D0680028088B /* ViewController.h */,
+				CE9E795C1E73D0680028088B /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE9E79891E7413ED0028088B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E795E1E73D0680028088B /* Main.storyboard */,
+				CE9E798A1E7426710028088B /* OSTransactionTableViewCell.h */,
+				CE9E798B1E7426710028088B /* OSTransactionTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CE9E798D1E754A250028088B /* Libreries */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E79951E754B030028088B /* MGCacheManager */,
+			);
+			name = Libreries;
+			sourceTree = "<group>";
+		};
+		CE9E79951E754B030028088B /* MGCacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E79901E754AFB0028088B /* endPointsToCache.plist */,
+				CE9E79911E754AFB0028088B /* MGCacheManager.h */,
+				CE9E79921E754AFB0028088B /* MGCacheManager.m */,
+			);
+			name = MGCacheManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE9E79741E73D0680028088B /* Build configuration list for PBXNativeTarget "PhobosTest" */;
 			buildPhases = (
+				A9E4E6D69F8A6973F03F1871 /* [CP] Check Pods Manifest.lock */,
 				CE9E794E1E73D0680028088B /* Sources */,
 				CE9E794F1E73D0680028088B /* Frameworks */,
 				CE9E79501E73D0680028088B /* Resources */,
+				97F15BCF14AF1026A95000CF /* [CP] Embed Pods Frameworks */,
+				EC4FDB5BA33261903F972914 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE9E79771E73D0690028088B /* Build configuration list for PBXNativeTarget "PhobosTestTests" */;
 			buildPhases = (
+				0B632B4D7E9340EABA45A4E9 /* [CP] Check Pods Manifest.lock */,
 				CE9E79671E73D0680028088B /* Sources */,
 				CE9E79681E73D0680028088B /* Frameworks */,
 				CE9E79691E73D0680028088B /* Resources */,
+				2966DE65DB86AC93710CF2B1 /* [CP] Embed Pods Frameworks */,
+				1BD84C68AECA0B545EF059E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +304,7 @@
 				CE9E79651E73D0680028088B /* LaunchScreen.storyboard in Resources */,
 				CE9E79621E73D0680028088B /* Assets.xcassets in Resources */,
 				CE9E79601E73D0680028088B /* Main.storyboard in Resources */,
+				CE9E79931E754AFB0028088B /* endPointsToCache.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,14 +317,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B632B4D7E9340EABA45A4E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1BD84C68AECA0B545EF059E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhobosTestTests/Pods-PhobosTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2966DE65DB86AC93710CF2B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhobosTestTests/Pods-PhobosTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97F15BCF14AF1026A95000CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhobosTest/Pods-PhobosTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9E4E6D69F8A6973F03F1871 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC4FDB5BA33261903F972914 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhobosTest/Pods-PhobosTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE9E794E1E73D0680028088B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9E797C1E73EE510028088B /* OSServerManager.m in Sources */,
 				CE9E795D1E73D0680028088B /* ViewController.m in Sources */,
+				CE9E797F1E73F2420028088B /* OSTransaction.m in Sources */,
+				CE9E798C1E7426710028088B /* OSTransactionTableViewCell.m in Sources */,
 				CE9E795A1E73D0680028088B /* AppDelegate.m in Sources */,
 				CE9E79571E73D0680028088B /* main.m in Sources */,
+				CE9E79941E754AFB0028088B /* MGCacheManager.m in Sources */,
+				CE9E79821E73F7E10028088B /* OSDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,10 +554,12 @@
 		};
 		CE9E79751E73D0680028088B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D18672153FFB02119FE35E0 /* Pods-PhobosTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HS76VV6WJD;
 				INFOPLIST_FILE = PhobosTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.olegcompany.PhobosTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,10 +568,12 @@
 		};
 		CE9E79761E73D0680028088B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24AE9D82FED5AE31ED5680C8 /* Pods-PhobosTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HS76VV6WJD;
 				INFOPLIST_FILE = PhobosTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.olegcompany.PhobosTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -373,6 +582,7 @@
 		};
 		CE9E79781E73D0690028088B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4CAE57899D00437BE040B8 /* Pods-PhobosTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = HS76VV6WJD;
@@ -386,6 +596,7 @@
 		};
 		CE9E79791E73D0690028088B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF88187A337B6B4BDA48660D /* Pods-PhobosTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = HS76VV6WJD;
@@ -416,6 +627,7 @@
 				CE9E79761E73D0680028088B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE9E79771E73D0690028088B /* Build configuration list for PBXNativeTarget "PhobosTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +636,7 @@
 				CE9E79791E73D0690028088B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
